@@ -1,0 +1,19 @@
+Package: foofactors
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Kim",
+           family = "Gannon",
+           role = c("aut", "cre"),
+           email = "kim.gannon@yale.edu",
+           comment = c(ORCID = "0000-0002-0867-5358"))
+Description: Makes factors less aggrivating. Practice package using example from r-pkgs.org.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    testthat
+Imports: 
+    forcats
